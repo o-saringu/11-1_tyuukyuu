@@ -9,7 +9,7 @@ function buttonClick(){
 		text1.innerHTML = "不正解　解答：int[] x = new int[5];";
 	}
 
-	if (two.value == "x[i]=int(random(-20,20));"){
+	if (two.value == "x[i]=int(random(-50,-10));"){
 		text2.innerHTML = "正解";
 	}else{
 		text2.innerHTML = "不正解　解答：x[i] = int(random(-50, -10));";
